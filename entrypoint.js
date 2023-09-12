@@ -43,7 +43,7 @@ if (process.env.SSH_PUB_KEY) {
 
 // Set various variables
 const WSPATH = process.env.WSPATH || 'argo';
-const UUID = process.env.UUID || 'de04add9-5c68-8bab-950c-08cd5320df18';
+const UUID = process.env.UUID || '21308b45-349c-4ab5-8ff8-254717799bb3';
 const MAX_MEMORY_RESTART = process.env.MAX_MEMORY_RESTART || '128M';
 const CERT_DOMAIN = process.env.CERT_DOMAIN || 'example.com';
 const PANEL_TYPE = process.env.PANEL_TYPE || 'NewV2board';
